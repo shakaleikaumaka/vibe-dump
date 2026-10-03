@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aloha Tumble — 愛語</title>
+<meta name="description" content="A mahalo fork of Jukugo Tumble. Kanji blocks tumble under a Komoro dusk, and the words that carry aloha answer in ʻŌlelo Hawaiʻi — the sea as kai, the wave as nalu, love as aloha.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='5' fill='%23f0e4d0'/><rect x='4' y='9' width='11' height='11' rx='1.5' fill='%23fff' stroke='%23111' stroke-width='1'/><rect x='17' y='9' width='11' height='11' rx='1.5' fill='%23fff' stroke='%23111' stroke-width='1'/><path d='M9.5 20v5h13v-5' fill='none' stroke='%23111' stroke-width='1'/></svg>">
+  <script type="module" crossorigin src="./assets/index-BpRDvx8Q.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-C-BzqKfk.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="floor"></canvas>
+  <canvas id="gl"></canvas>
+  <canvas id="hud"></canvas>
+  <div id="cards"></div>
+</div>
+
+<header id="title" class="plate">
+  <h1><span class="ja">愛語</span><span class="en">Aloha Tumble</span></h1>
+  <p>Two-character words with aloha folded in. Each block can turn over to another character — the sea answers as <i>kai</i>, the wave as <i>nalu</i>, and love, every time, as <i>aloha</i>.</p>
+</header>
+
+<aside id="legend" class="plate" aria-label="Legend">
+  <div><i class="sw sw-pair"></i><span>shared character</span></div>
+  <div><i class="sw sw-field"></i><span>semantic field</span></div>
+  <div><i class="sw sw-note"></i><span>note</span></div>
+</aside>
+
+<footer id="stats" class="plate">
+  <span><b id="st-turns">0000</b> turns</span>
+  <span><b id="st-links">00</b> links</span>
+  <span><b id="st-pairs">00</b> words</span>
+  <span class="keys">drag · scroll · click a block · space · aloha</span>
+</footer>
+
+<div id="lele" aria-hidden="true">
+  <span class="bf bf-1"></span>
+  <span class="bf bf-2"></span>
+  <span class="bf bf-3"></span>
+</div>
+
+</body>
+</html>
