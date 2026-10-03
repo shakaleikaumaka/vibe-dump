@@ -1,0 +1,30 @@
+{
+  "name": "@vibe-dump/aloha-tumble",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "standalone": "vite build && node tools/standalone.mjs"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "gallery": {
+    "title": "Aloha Tumble",
+    "description": "A mahalo fork of Jukugo Tumble: the same field of tumbling kanji blocks, warmed to a Komoro-sunset palette, where the words that carry aloha answer in ʻŌlelo Hawaiʻi — the sea as kai, the wave as nalu, love as aloha. Butterflies pollinate the board.",
+    "tags": [
+      "art"
+    ],
+    "status": "wip",
+    "models": [
+      "Fable 5"
+    ],
+    "thinking": "unknown",
+    "thumbnail": {
+      "waitFor": "body.ready",
+      "settle": 3400
+    }
+  }
+}
